@@ -1,0 +1,28 @@
+.container h1, .container h2, .container h3 {
+    /*Left, center, right, justify*/
+    text-align: justify;
+    /* italic, oblique */
+    font-style: oblique;
+    /* 100, 200, ..., 900 */
+    font-weight: 300;
+    color: purple;
+
+}
+
+.container h2 {
+    font-size: 2.5rem; /* 2.5 * 16px*/
+}
+
+.container h3 {
+    font-size: 3rem;
+}
+
+.container p {
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+html{
+    font-size: 12px;
+}
+
