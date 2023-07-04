@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Agdasima', sans-serif;
+    padding: 25px;
+    margin: 30px;
+    text-align: justify;
+    background-image: url("https://plus.unsplash.com/premium_photo-1675802518662-009a12371c27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=715&q=80");
+    }
+
+
+main p {
+    background-color: #d2d2d2;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: justify;
+}
+
+main h2 {
+    text-align: center;
+    color: grey;
+
+}
+
+main h2:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: gray;
+    color: orange;
+    
+}
+
+.navegacao li {
+   display: inline;
+}
+
+.navegacao ul {
+    background-color: grey;
+    text-align: center;
+    margin: 20px;
+    padding: 12px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-align: ;
+}
+
+.navegacao a:hover {
+    color: black;
+}
+
+
+
+
+
+
+
