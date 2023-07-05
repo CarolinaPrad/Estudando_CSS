@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-1 {
+    background-color: brown;
+    padding: 12px;
+    display: flex; /* Ativa o Flex*/
+    flex-direction: row; /* Direção em que os elementos são atribuidos */
+    flex-wrap: wrap; /* Indica que pode quebrar linha se não tiver espaço*/
+    flex-flow: row wrap; /* Atalho para flex-direction e flex-wrap*/
+    justify-content: space-evenly; /* star, end, center, space - ajusta os elementos no eixo main*/
+    align-items: center; /*alinha os itens no eixo cross*/
+    align-content: space-between ; /* Alinha as linhas */
+    height: 600px;
+}
+
+.item-1 {
+    background-color: orange;
+}
+
+.item-2 {
+    background-color: greenyellow;
+}
+
+.item-3 {
+    background-color: gold;
+    align-self: flex-start; /* Alinha no eixo cross individualmente*/
+}
+
+.item-4 {
+    background-color:hotpink;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+    width: 200px;
+    padding: 8px;
+
+}
+
+.container-2 {
+    background-color: chocolate;
+    height: 250px;
+    display: flex;
+}
+
+.coluna-1 {
+    background-color: tan;
+    width: 200px;
+}
+
+.coluna-2 {
+    background-color: aqua;
+    flex: 1; /* Ocupa uma porção de espaço disponível*/
+   
+}
+
+.coluna-3 {
+    background-color: tomato;
+    flex: 1;
+}
